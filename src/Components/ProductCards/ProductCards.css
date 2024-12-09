@@ -1,0 +1,94 @@
+.productCardsList {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    padding-top: 15px;
+}
+.productCards {
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.addCollections {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.addCollections .pluse {
+    padding: 3px 0px 6px;
+    background: #fff;
+    border-radius: 25px;
+    font-size: 23px;
+    width: 30px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    line-height: 21px;
+}
+.prodcutsDetails {
+    background: #fff;
+    border-radius: 20px;
+    position: relative;
+    top: -15px;
+    padding: 10px;
+}
+.prodcutsDetails .cateName {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-bottom: 10px;
+}
+.prodcutsDetails .cateName span {
+    padding: 4px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    text-align: center;
+}
+.titleBox {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.titleBox img {
+    width: 60px;
+    border-radius: 10px;
+}
+.titleTxt h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.titleTxt h5 del {
+    color: grey;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+.titleTxt span {
+    font-size: 12px;
+    margin-top: 25px;
+    display: block;
+    color: grey;
+}
+.productBtn {
+    justify-content: center;
+    display: flex;
+    gap: 0px;
+    margin-top: 45px;
+}
+.productBtn .btn {
+    padding: 5px 45px;
+    border-radius: 30px; 
+    font-size: 12px;
+    height: 34px;
+}
+.productBtn .btn-primary { 
+    border: 1px solid #010101;
+    background: #010101;
+    color: #efefef; 
+}
+.productBtn .btn-light {
+    border: 1px solid #ccc;
+    width: 36px;
+    padding: 5px;
+}
+.productBtn .btn-light img {
+    width: 17px;
+}

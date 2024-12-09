@@ -1,0 +1,55 @@
+/*
+Auther : Tejram Paswan
+Date : 28 Novermber 2024
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+  margin: 0px;
+  padding:0px;
+  list-style: none;
+  text-decoration: none;
+  color: #010101;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.container{
+   padding-left: 2.5rem;
+   padding-right: 2.5rem;
+   margin:0 auto;
+}
+.imgResponsive{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+h1 { 
+  font-size: 4.5rem;
+}
+h1 span{
+  font-size: 34px;
+  font-weight: 600;
+  color: #edcf5d;
+}
+.badge{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  display: block;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.badge-light {
+  background: #edcf5d;
+  color: #333;
+}
+.form-control {
+  background: #F4F4F4;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 100%;
+}

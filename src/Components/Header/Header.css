@@ -1,0 +1,39 @@
+.mainHeader {
+    padding: 20px 0px;
+}
+.headerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 50px;
+}
+.searchBar {
+    width: 300px;
+}
+.searchBar .form-group {
+    position: relative;
+}
+.searchBar .form-group img {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.searchBar .form-group .form-control {
+    padding-left: 40px;;
+}
+.headerRight {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.headerRight .iconBox {
+    position: relative;
+}
+.headerRight .iconTxt {
+    font-size: 12px;
+    margin-top: -5px;
+    display: block;
+}

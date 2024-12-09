@@ -1,0 +1,80 @@
+/* Showcase OR Hero Section Css */
+.showcase {
+    position: relative;
+}
+.captionAll {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9;
+}
+.sliderImg {
+    position: relative;
+    width: 100%;
+}
+.caption .imgResponsive {
+    border-radius: 20px;
+}
+.captionAll .captionBox {
+    padding: 30px;
+    margin-top: 25px;
+}
+.captionAll .captionBox .mainTitle {
+    color: #fff;
+}
+.captionAll .captionBox p {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 15px;
+}
+.captionAll .captionBox p .mainSubTitle {
+    color: #fff;
+    width: 340px;
+    display: block;
+    font-size: 1.15rem;
+}
+.aboutProducts {
+    text-align: left;
+    display: flex;
+    align-items: baseline;
+    justify-content: right;
+    padding: 30px;
+}
+.aboutProducts span {
+    width: 170px;
+    color: #fff;
+    display: block;
+}
+.expenceBtn {
+    text-align: center;
+    padding: 30px;
+    margin-top: 10px;
+}
+.expenceBtn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+.expenceBtn a .btn {
+    padding: 12px 35px; 
+    border-radius: 30px;
+    box-shadow: 0px 3px 4px #00000014;
+}
+.expenceBtn a .btn-light { 
+    background: #fff; 
+}
+.expenceBtn a img {
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 3px 4px #00000014;
+    background: #fff;
+}
+.expenceBtn span.label {
+    color: #fff;
+    display: block;
+    margin-top: 15px;
+}
